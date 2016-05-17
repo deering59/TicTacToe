@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TicTacToe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khk-HV-vma">
+                                <rect key="frame" x="176" y="228" width="30" height="30"/>
+                                <state key="normal" title="01" backgroundImage="Button-White"/>
+                                <connections>
+                                    <action selector="pressedButton01" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bz7-Tc-4qu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIv-OY-Ljd">
+                                <rect key="frame" x="235" y="228" width="30" height="30"/>
+                                <state key="normal" title="02" backgroundImage="Button-White"/>
+                                <connections>
+                                    <action selector="pressedButton02" destination="BYZ-38-t0r" eventType="touchUpInside" id="oSw-Ng-P3Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9B1-1c-7gP">
+                                <rect key="frame" x="109" y="266" width="30" height="30"/>
+                                <state key="normal" title="10" backgroundImage="Button-White"/>
+                                <connections>
+                                    <action selector="pressedButton10" destination="BYZ-38-t0r" eventType="touchUpInside" id="zfl-ts-WgB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pj1-56-9mq">
+                                <rect key="frame" x="176" y="266" width="30" height="30"/>
+                                <state key="normal" title="11" backgroundImage="Button-White"/>
+                                <connections>
+                                    <action selector="pressedButton11" destination="BYZ-38-t0r" eventType="touchUpInside" id="ULZ-6Q-k3u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ouy-X9-8HF">
+                                <rect key="frame" x="109" y="304" width="30" height="30"/>
+                                <state key="normal" title="20" backgroundImage="Button-White"/>
+                                <connections>
+                                    <action selector="pressedButton20" destination="BYZ-38-t0r" eventType="touchUpInside" id="cvf-Rn-5kz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqv-Ai-JM6">
+                                <rect key="frame" x="176" y="304" width="30" height="30"/>
+                                <state key="normal" title="21" backgroundImage="Button-White"/>
+                                <connections>
+                                    <action selector="pressedButton21" destination="BYZ-38-t0r" eventType="touchUpInside" id="uYY-AP-BTV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1x-SR-6PL">
+                                <rect key="frame" x="235" y="304" width="30" height="30"/>
+                                <state key="normal" title="22" backgroundImage="Button-White"/>
+                                <connections>
+                                    <action selector="pressedButton22" destination="BYZ-38-t0r" eventType="touchUpInside" id="lFI-s1-uW0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pF1-bx-4w0">
+                                <rect key="frame" x="109" y="228" width="30" height="30"/>
+                                <state key="normal" title="00" backgroundImage="Button-White"/>
+                                <connections>
+                                    <action selector="pressedButton00" destination="BYZ-38-t0r" eventType="touchUpInside" id="FPI-iA-LvR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUp-ai-gVg">
+                                <rect key="frame" x="172" y="378" width="39" height="30"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="CbC-1k-ErO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5c9-Py-33d">
+                                <rect key="frame" x="235" y="266" width="30" height="30"/>
+                                <state key="normal" title="12" backgroundImage="Button-White"/>
+                                <connections>
+                                    <action selector="pressedButton12" destination="BYZ-38-t0r" eventType="touchUpInside" id="JLs-e4-YGu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="button00" destination="pF1-bx-4w0" id="vjJ-KT-HdI"/>
+                        <outlet property="button01" destination="khk-HV-vma" id="vJS-dP-eBc"/>
+                        <outlet property="button02" destination="jIv-OY-Ljd" id="U6c-qd-XvA"/>
+                        <outlet property="button10" destination="9B1-1c-7gP" id="UEM-Kp-Ovg"/>
+                        <outlet property="button11" destination="Pj1-56-9mq" id="iwX-I1-yoK"/>
+                        <outlet property="button12" destination="5c9-Py-33d" id="7fh-6L-vrc"/>
+                        <outlet property="button20" destination="ouy-X9-8HF" id="PEQ-qG-Pp9"/>
+                        <outlet property="button21" destination="Bqv-Ai-JM6" id="BJK-bj-znn"/>
+                        <outlet property="button22" destination="x1x-SR-6PL" id="Hg8-oF-kIK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Button-White" width="32" height="32"/>
+    </resources>
+</document>
