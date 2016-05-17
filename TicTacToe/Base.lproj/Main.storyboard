@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khk-HV-vma">
-                                <rect key="frame" x="176" y="228" width="30" height="30"/>
+                                <rect key="frame" x="172" y="228" width="30" height="30"/>
                                 <state key="normal" title="01" backgroundImage="Button-White"/>
                                 <connections>
                                     <action selector="pressedButton01" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bz7-Tc-4qu"/>
@@ -39,7 +39,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pj1-56-9mq">
-                                <rect key="frame" x="176" y="266" width="30" height="30"/>
+                                <rect key="frame" x="172" y="266" width="30" height="30"/>
                                 <state key="normal" title="11" backgroundImage="Button-White"/>
                                 <connections>
                                     <action selector="pressedButton11" destination="BYZ-38-t0r" eventType="touchUpInside" id="ULZ-6Q-k3u"/>
@@ -50,13 +50,6 @@
                                 <state key="normal" title="20" backgroundImage="Button-White"/>
                                 <connections>
                                     <action selector="pressedButton20" destination="BYZ-38-t0r" eventType="touchUpInside" id="cvf-Rn-5kz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqv-Ai-JM6">
-                                <rect key="frame" x="176" y="304" width="30" height="30"/>
-                                <state key="normal" title="21" backgroundImage="Button-White"/>
-                                <connections>
-                                    <action selector="pressedButton21" destination="BYZ-38-t0r" eventType="touchUpInside" id="uYY-AP-BTV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1x-SR-6PL">
@@ -85,6 +78,13 @@
                                 <state key="normal" title="12" backgroundImage="Button-White"/>
                                 <connections>
                                     <action selector="pressedButton12" destination="BYZ-38-t0r" eventType="touchUpInside" id="JLs-e4-YGu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqv-Ai-JM6">
+                                <rect key="frame" x="172" y="304" width="30" height="30"/>
+                                <state key="normal" title="21" backgroundImage="Button-White"/>
+                                <connections>
+                                    <action selector="pressedButton21" destination="BYZ-38-t0r" eventType="touchUpInside" id="uYY-AP-BTV"/>
                                 </connections>
                             </button>
                         </subviews>
